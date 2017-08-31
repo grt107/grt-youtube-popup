@@ -13,7 +13,7 @@ You can check the demo here: [grt107.github.io/grt-youtube-popup/](http://grt107
   <link rel="stylesheet" href="grt-youtube-popup.css">
   ```
 
-2- Include the plugin javascript file ```grt-youtube-popup.js``` in your ```<body>```
+2- Include the plugin javascript file ```grt-youtube-popup.js``` in your ```<body>``` after ```jquery.min.js```
 
   ```html
   <script src="grt-youtube-popup.js"></script>
@@ -25,7 +25,7 @@ You can check the demo here: [grt107.github.io/grt-youtube-popup/](http://grt107
   <span class="youtube-link" youtubeid="yPu6qV5byu4">Open Video</span>
   ```
   
-4- Initialize the plugin at the end of all your javascript files with your custom class (after ```jQuery``` and ```grt-youtube-popup.js```)
+4- Initialize the plugin at the end of all your javascript files with your custom class (after ```jquery.min.js``` and ```grt-youtube-popup.js```)
 
 ```html
   <script> $(".youtube-link").grtyoutube(); </script>
