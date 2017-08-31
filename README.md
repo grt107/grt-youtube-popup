@@ -25,6 +25,20 @@ You can checkout the demo here: [grt107.github.io/grt-youtube-popup/](http://grt
   ```
   
 4- Initialize the plugin at the end of your javascript files (after jQuery and grt-youtube-popup.js)
-  ```html
+
+```html
   <script> $(".youtube-link").grtyoutube(); </script>
   ```
+
+# Advanced Options
+- Autoplay Enabled (enabled by default)
+
+```html
+<script> $(".youtube-link").grtyoutube({ autoPlay:true }); </script>
+```
+
+- Autoplay Disabled
+
+```html
+<script> $(".youtube-link").grtyoutube({ autoPlay:false }); </script>
+```
