@@ -39,7 +39,7 @@
 
 				// Close the box on click or escape
 				$(this).on('click', function (event) {
-		            event.preventDefault();
+		            		event.preventDefault();
 					$(".grtvideo-popup-close, .grtvideo-popup").click(function(){
 						$(".grtvideo-popup").remove();
 					});
