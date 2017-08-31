@@ -18,13 +18,13 @@ You can checkout the demo here: [grt107.github.io/grt-youtube-popup/](http://grt
   <script src="grt-youtube-popup.js"></script>
   ```
 
-3- Add a class that will be used for the plugin and insert the id of the Youtube video like in the example below:
+3- Add a custom class that will be used for the plugin and insert the id of Youtube in data attribite like in the example below:
 
   ```html
   <span class="youtube-link" youtubeid="yPu6qV5byu4">Open Video</span>
   ```
   
-4- Initialize the plugin at the end of all your javascript files (after ```jQuery``` and ```grt-youtube-popup.js```)
+4- Initialize the plugin at the end of all your javascript files with your custom class (after ```jQuery``` and ```grt-youtube-popup.js```)
 
 ```html
   <script> $(".youtube-link").grtyoutube(); </script>
