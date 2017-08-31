@@ -7,13 +7,13 @@ You can check the demo here: [grt107.github.io/grt-youtube-popup/](http://grt107
 ![Alt text](/screenshot.jpg?raw=true "Demo Screenshot")
 
 # How to use the plugin in your website:
-1- Include the plugin stylesheet ```grt-youtube-popup.css``` in your ```<head>```
+1- Include the plugin stylesheet ```grt-youtube-popup.css``` inside your ```<head>``` element
 
   ```html
   <link rel="stylesheet" href="grt-youtube-popup.css">
   ```
 
-2- Include the plugin javascript file ```grt-youtube-popup.js``` in your ```<body>``` after ```jquery.min.js```
+2- Include the plugin javascript file ```grt-youtube-popup.js``` inside the ```<body>``` tag and after ```jquery.min.js```
 
   ```html
   <script src="grt-youtube-popup.js"></script>
