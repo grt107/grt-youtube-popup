@@ -19,7 +19,7 @@ You can check the demo here: [grt107.github.io/grt-youtube-popup/](http://grt107
   <script src="grt-youtube-popup.js"></script>
   ```
 
-3- Add a custom class and insert the id of the Youtube video as a new attribute ```youtubeid=yPu6qV5byu4``` like in the example below:
+3- Add a custom class and insert the id of the Youtube video as a new attribute ```youtubeid="yPu6qV5byu4"``` like in the example below:
 
   ```html
   <span class="youtube-link" youtubeid="yPu6qV5byu4">Open Video</span>
