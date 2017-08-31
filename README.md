@@ -12,7 +12,7 @@ You can checkout the demo here: [grt107.github.io/grt-youtube-popup/](http://grt
   <link rel="stylesheet" href="grt-youtube-popup.css">
   ```
 
-2- Include the plugin javascript file grt-youtube-popup.js in your ```<body>```
+2- Include the plugin javascript file ```grt-youtube-popup.js``` in your ```<body>```
 
   ```html
   <script src="grt-youtube-popup.js"></script>
