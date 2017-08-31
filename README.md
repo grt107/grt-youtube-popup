@@ -6,7 +6,7 @@ You can check the demo here: [grt107.github.io/grt-youtube-popup/](http://grt107
 # Screenshot:
 ![Alt text](/screenshot.jpg?raw=true "Demo Screenshot")
 
-# How to use in your website:
+# How to use the plugin in your website:
 1- Include the plugin stylesheet ```grt-youtube-popup.css``` in your ```<head>```
 
   ```html
