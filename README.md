@@ -24,7 +24,7 @@ You can checkout the demo here: [grt107.github.io/grt-youtube-popup/](http://grt
   <span class="youtube-link" youtubeid="yPu6qV5byu4">Open Video</span>
   ```
   
-4- Initialize the plugin at the end of your javascript files (after jQuery and grt-youtube-popup.js)
+4- Initialize the plugin at the end of all your javascript files (after ```jQuery``` and ```grt-youtube-popup.js```)
 
 ```html
   <script> $(".youtube-link").grtyoutube(); </script>
