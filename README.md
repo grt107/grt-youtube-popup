@@ -7,7 +7,7 @@ You can check the demo here: [grt107.github.io/grt-youtube-popup/](http://grt107
 ![Alt text](/screenshot.jpg?raw=true "Demo Screenshot")
 
 # How to use in your website:
-1- Include the plugin stylesheet grt-youtube.css in your ```<head>```
+1- Include the plugin stylesheet ```grt-youtube-popup.css``` in your ```<head>```
 
   ```html
   <link rel="stylesheet" href="grt-youtube-popup.css">
@@ -19,7 +19,7 @@ You can check the demo here: [grt107.github.io/grt-youtube-popup/](http://grt107
   <script src="grt-youtube-popup.js"></script>
   ```
 
-3- Add a custom class that will be used for the plugin and insert the id of Youtube in data attribite like in the example below:
+3- Add a custom class and insert the id of the Youtube video as an attribute like in the example below:
 
   ```html
   <span class="youtube-link" youtubeid="yPu6qV5byu4">Open Video</span>
