@@ -486,7 +486,7 @@ body strong {
   border-top:1px solid #eee;
 }
 
-.youtube-link {
+.youtube-link, .youtube-link-dark {
   cursor:pointer;
   margin-bottom:8px;
   display:inline-block;
