@@ -38,7 +38,7 @@ You can check the demo here: [grt107.github.io/grt-youtube-popup/](http://grt107
 <script> $(".youtube-link").grtyoutube({ autoPlay:false }); </script>
 ```
 
-- ```Theme``` (dark theme is default) - accepted values: ```"dark"``` or ```"light"```
+- ```Theme``` (dark theme is set by default) - accepted values: ```"dark"``` or ```"light"```
 
 ```html
 <script> $(".youtube-link").grtyoutube({ theme: "dark" }); </script>
