@@ -19,18 +19,20 @@
 			// Default options
 			var settings = $.extend({
 				videoID: getvideoid,
-				autoPlay: true
+				autoPlay: true,
+				theme: "dark"
 			}, options );
 
 			// Convert some values
-			if(settings.autoPlay === true) { settings.autoPlay = 1 } else { settings.autoPlay = 0 }
+			if(settings.autoPlay === true) { settings.autoPlay = 1 } else if(settings.autoPlay === false)  { settings.autoPlay = 0 }
+			if(settings.theme === "dark") { settings.theme = "grtyoutube-dark-theme" } else if(settings.theme === "light")  { settings.theme = "grtyoutube-light-theme" }
 
 			// Initialize on click
 			if(getvideoid) {
 				$(this).on( "click", function() {
-					 $("body").append('<div class="grtvideo-popup">'+
-								'<div class="grtvideo-popup-content">'+
-									'<span class="grtvideo-popup-close">X</span>'+
+					 $("body").append('<div class="grtyoutube-popup '+settings.theme+'">'+
+								'<div class="grtyoutube-popup-content">'+
+									'<span class="grtyoutube-popup-close"></span>'+
 									'<iframe class="grtyoutube-iframe" src="https://www.youtube.com/embed/'+settings.videoID+'?rel=0&wmode=transparent&autoplay='+settings.autoPlay+'&iv_load_policy=3" allowfullscreen frameborder="0"></iframe>'+
 								'</div>'+
 							'</div>');
@@ -40,14 +42,14 @@
 			// Close the box on click or escape
 			$(this).on('click', function (event) {
 				event.preventDefault();
-				$(".grtvideo-popup-close, .grtvideo-popup").click(function(){
-					$(".grtvideo-popup").remove();
+				$(".grtyoutube-popup-close, .grtyoutube-popup").click(function(){
+					$(".grtyoutube-popup").remove();
 				});
 			});
 
 			$(document).keyup(function(event) {
 				if (event.keyCode == 27){
-					$(".grtvideo-popup").remove();
+					$(".grtyoutube-popup").remove();
 				}
 			});
 		});

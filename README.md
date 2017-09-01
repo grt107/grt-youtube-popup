@@ -1,5 +1,5 @@
 # GRT Youtube Popup - jQuery Plugin
-Simple and lightweight jQuery plugin for playing youtube embed videos in a popup. 
+Simple and lightweight jQuery plugin for playing youtube embed videos in a popup.
 
 You can check the demo here: [grt107.github.io/grt-youtube-popup/](http://grt107.github.io/grt-youtube-popup/)
 
@@ -24,7 +24,7 @@ You can check the demo here: [grt107.github.io/grt-youtube-popup/](http://grt107
   ```html
   <span class="youtube-link" youtubeid="yPu6qV5byu4">Open Video</span>
   ```
-  
+
 4- Initialize the plugin at the end of all javascript files using your custom class (after ```jquery.min.js``` and ```grt-youtube-popup.js```)
 
 ```html
@@ -32,14 +32,14 @@ You can check the demo here: [grt107.github.io/grt-youtube-popup/](http://grt107
   ```
 
 # Advanced Options
-- Autoplay Enabled (enabled by default)
-
-```html
-<script> $(".youtube-link").grtyoutube({ autoPlay:true }); </script>
-```
-
-- Autoplay Disabled
+- ```Autoplay``` (enabled by default) - accepted values: ```true``` or ```false```
 
 ```html
 <script> $(".youtube-link").grtyoutube({ autoPlay:false }); </script>
+```
+
+- ```Theme``` (dark theme is default) - accepted values: ```"dark"``` or ```"light"```
+
+```html
+<script> $(".youtube-link").grtyoutube({ theme: "dark" }); </script>
 ```

@@ -46,11 +46,11 @@
 
 			<h5>Advanced Options</h5>
 
-			<p>Autoplay Enabled (default is enabled)</p>
-			<code>&lt;script&gt; $(".youtube-link").grtyoutube({ autoPlay:true }); &lt;/script&gt;</code>
-
-			<p>Autoplay Disabled</p>
+			<p><strong>Autoplay</strong> (enabled by default) - accepted values: <strong>true</strong> or <strong>false</strong></p>
 			<code>&lt;script&gt; $(".youtube-link").grtyoutube({ autoPlay:false }); &lt;/script&gt;</code>
+
+			<p><strong>Theme</strong> (dark theme is default) - accepted values: <strong>"dark"</strong> or <strong>"light"</strong></p>
+			<code>&lt;script&gt; $(".youtube-link").grtyoutube({ theme:"light" }); &lt;/script&gt;</code>
 
 		</div>
 
@@ -66,7 +66,8 @@
 		<!-- Initialize GRT Youtube Popup plugin -->
 		<script>
 			$(".youtube-link").grtyoutube({
-				autoPlay:true
+				autoPlay:true,
+				theme: "light"
 			});
 		</script>
 
