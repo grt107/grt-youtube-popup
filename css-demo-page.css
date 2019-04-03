@@ -467,6 +467,12 @@ body strong {
   padding-bottom:80px;
 }
 
+@media (max-width:980px) {
+    .demo-page-container {
+        width: calc(100% - 30px);
+    }
+}
+
 .demo-page-container h3 {
   font-size:38px;
   margin-top:0;

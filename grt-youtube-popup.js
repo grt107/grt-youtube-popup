@@ -33,7 +33,7 @@
 					 $("body").append('<div class="grtyoutube-popup '+settings.theme+'">'+
 								'<div class="grtyoutube-popup-content">'+
 									'<span class="grtyoutube-popup-close"></span>'+
-									'<iframe class="grtyoutube-iframe" src="https://www.youtube.com/embed/'+settings.videoID+'?rel=0&wmode=transparent&autoplay='+settings.autoPlay+'&iv_load_policy=3" allowfullscreen frameborder="0"></iframe>'+
+									'<iframe class="grtyoutube-iframe" src="https://www.youtube.com/embed/'+settings.videoID+'?rel=0&wmode=transparent&autoplay='+settings.autoPlay+'&iv_load_policy=3" allowfullscreen frameborder="0" allow="autoplay; fullscreen"></iframe>'+
 								'</div>'+
 							'</div>');
 				});
