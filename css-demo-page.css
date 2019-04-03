@@ -509,6 +509,7 @@ code {
   white-space: pre;
   display: block;
   border: 1px solid #eee;
+  overflow: hidden;
 }
 
 p {
